@@ -9,5 +9,5 @@ public abstract class Shape : MonoBehaviour
         return shapeName;
     }
 
-    public abstract void Spin();
+    public abstract void Spin(); // ABSTRACTION
 }

@@ -16,11 +16,13 @@ SceneManager.LoadScene("Abstraction");
 public void LoadInheritance()
 {
 SceneManager.LoadScene("Inheritance");
+Debug.Log("loaded inheritance");
 }
 
 public void LoadPolymorphism()
 {
 SceneManager.LoadScene("Polymorphism");
+Debug.Log("loaded Polymorphism");
 }
 
 public void LoadEncapsulation()

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CapsuleShape : Shape
+public class CapsuleShape : Shape // ENCAPSULATION
 {
     public override void Spin()
     {

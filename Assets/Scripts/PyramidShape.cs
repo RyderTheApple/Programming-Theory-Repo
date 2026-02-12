@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PyramidShape : Shape
+public class PyramidShape : Shape // INHERITANCE
 {
     public override void Spin()
     {

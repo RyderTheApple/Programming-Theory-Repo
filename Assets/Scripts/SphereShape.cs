@@ -11,6 +11,7 @@ public class SphereShape : Shape
         startPosition = transform.position;
     }
     public override void Spin()
+    // POLYMORPHISM
     {
         float newY = startPosition.y + Mathf.Sin(Time.time * floatSpeed) * floatHeight;
         transform.position = new Vector3(startPosition.x, newY, startPosition.z);
